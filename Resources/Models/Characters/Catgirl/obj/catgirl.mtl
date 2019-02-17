@@ -1,0 +1,128 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 29.12.2018 22:05:33
+
+newmtl agrs_head1
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3000 0.3000 0.3000
+	Kd 0.7000 0.7000 0.7000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.7000 0.7000 0.7000
+	map_Ka AGRS_Head01.tga
+	map_Kd AGRS_Head01.tga
+
+newmtl agrs_hair1
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.8610 0.8610 0.8610
+	Kd 0.8080 0.8548 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.8080 0.8548 1.0000
+	map_Ka AGRS_Hair01.tga
+	map_Kd AGRS_Hair01.tga
+
+newmtl agrs_hair2
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3000 0.3000 0.3000
+	Kd 0.7000 0.7000 0.7000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.7000 0.7000 0.7000
+	map_Ka AGRS_Hair02.tga
+	map_Kd AGRS_Hair02.tga
+
+newmtl agrs_body1
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3000 0.3000 0.3000
+	Kd 0.7000 0.7000 0.7000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.7000 0.7000 0.7000
+	map_Ka AGRS_Body01.tga
+	map_Kd AGRS_Body01.tga
+
+newmtl agrs_body2
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3000 0.3000 0.3000
+	Kd 0.7000 0.7000 0.7000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.7000 0.7000 0.7000
+	map_Ka AGRS_Body02.tga
+	map_Kd AGRS_Body02.tga
+
+newmtl agrs_body3
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3000 0.3000 0.3000
+	Kd 0.7000 0.7000 0.7000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.7000 0.7000 0.7000
+	map_Ka AGRS_Body02.tga
+	map_Kd AGRS_Body02.tga
+
+newmtl Polygon_AUTO1_XSIPOLYCLS_agrs_body3
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 1.0000 1.0000 1.0000
+	map_Ka AGRS_Body02.tga
+	map_Kd AGRS_Body02.tga
+
+newmtl Polygon_AUTO_XSIPOLYCLS_agrs_body3
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 1.0000 1.0000 1.0000
+	map_Ka AGRS_Body02.tga
+	map_Kd AGRS_Body02.tga
+
+newmtl base
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3000 0.3000 0.3000
+	Kd 0.7000 0.7000 0.7000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.7000 0.7000 0.7000
+	map_Ka Base.tga
+	map_Kd Base.tga

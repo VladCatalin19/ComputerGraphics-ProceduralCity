@@ -1,0 +1,37 @@
+# Blender MTL File: 'None'
+# Material Count: 3
+
+newmtl main_color.001
+Ns 23.529412
+Ka 0.588000 0.588000 0.588000
+Kd 0.313700 0.313700 0.313700
+Ks 0.675000 0.675000 0.675000
+Ke 0.000000 0.000000 0.000000
+Ni 1.600000
+d 1.000000
+illum 2
+map_Kd spotlight_falloff.tga
+map_Bump spotlight_noise.tga
+map_Ka spotlight_falloff.tga
+
+newmtl white_plastic.001
+Ns 29.411765
+Ka 0.588000 0.588000 0.588000
+Kd 0.854900 0.854900 0.854900
+Ks 0.270000 0.270000 0.270000
+Ke 0.000000 0.000000 0.000000
+Ni 1.600000
+d 1.000000
+illum 2
+map_Kd spotlight_falloff.tga
+map_Ka spotlight_falloff.tga
+
+newmtl wire_198225087.001
+Ns 29.411765
+Ka 0.666700 0.666700 0.666700
+Kd 0.776500 0.882400 0.341200
+Ks 0.350000 0.350000 0.350000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2

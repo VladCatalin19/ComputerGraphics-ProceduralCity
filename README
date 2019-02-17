@@ -1,0 +1,62 @@
+-------------------------------------------------------------------------------
+Vlad Marius-Cătălin 335CC
+Anul III Semestrul I
+Tema3 Elemente de Grafică pe Calculator
+-------------------------------------------------------------------------------
+
+    1) Clădirile
+    Clădirile sunt niște prisme. Acestea au bazele poligoane regulate număr de
+laturi de la 4 până la 12 sau 16. Asamblarea clădirilor se face prin așezarea
+mai multor astfel de prisme una peste alta. Clădirea poate avea și acoperiș în
+formă de piramidă cu baza identică cu poligonul clădirii.
+    Pentru generearea vârfurilor clădirii, se ia un cerc, se împarte într-un
+număr aleator de fragmente, se iau punctele acestea și se translatează și ro-
+tesc. Se același cerc și se translatează în sus cu o anumită înălțime pentru
+a se obține acoperișul.
+    Se repetă procesul de câteva ori pentru a crea mai multe nivele, iar la ul-
+timul nivel se construiește acoperișul.
+    Clădirile se generează în spațiul lume, astfel nu este nevoie ca la fiecare
+cadru să se translateze, scaleze și rotească.
+
+
+    2) Orașul
+    Orașul constă într-o matrice de dimensiuni 30 x 35 (dimensiunile se pot mo-
+difica în biblioteca „Constants.h”, CITY_MAX_WID și CITY_MAX_LEN definesc di-
+mensiunile orașului).
+    Mai întâi se aleg aleator niște linii din matrice și se marchează ca străzi.
+Apoi, se aleg aleator niște coloane din matrice și se marchează ca străzi. Se
+marchează cu intersecții locul unde se întâlnesc străzile.
+    Se ia fiecare celulă care nu conține nimic și se decide dacă aceasta va con-
+ține o clădire sau o statuie. Probabilitatea ca în acest spațiu să fie aleasă o
+clădire este de 75%, iar o statuie 25%.
+    După aceea, se creează un număr de mașini drept decorațiuni și se împrăștie
+pe străzile și intersecțiile orașului.
+
+
+    3) Iluminare
+    Toate elementele din oraș sunt iluminate de o lumină direcțională, plasată
+în jurul lunii desenate în skybox. Datorită limitărilor hardware, clădirile au
+doar două lumini spot, dar numărul acestora se poate modifica în bibliote-
+ca „Constants.h”, modificând constanta BUILDING_LIGHTS. Aceste lumini sunt de 
+tip spot și iluminează fațada clădirii. Luminile sunt generate procedural, ni-
+velul la care se plasează poate fi oricare al clădirii, iar direcția luminii
+poate fi ori în sus, ori în jos. Luminile sunt așezate la colțurile poligoane-
+lor clădirilor.
+
+
+    4) Bibliografie
+
+    Modele 3D:
+http://www.cadnav.com/3d-models/model-39109.html
+http://www.cadnav.com/3d-models/model-39046.html
+https://free3d.com/3d-model/cartoon-low-poly-city-cars-pack-32084.html
+https://www.turbosquid.com/FullPreview/Index.cfm/ID/613771
+https://www.turbosquid.com/FullPreview/Index.cfm/ID/1333537
+
+    Texturi:
+https://images.freecreatives.com/wp-content/uploads/2015/05/158.jpg
+http://3.bp.blogspot.com/-0CMx7T-MuwM/UkdqSerH4FI/AAAAAAAAMEw/Ddmj12qBoyM/s1600/Tileable_Hexagonal_Stone_Pavement_Texture_DISP.jpg
+https://www.textures.com/download/buildingshighrise0623/104591
+https://www.pexels.com/photo/building-pattern-wall-architecture-33317/
+https://www.pexels.com/photo/beige-and-blue-tiled-surface-845234/
+https://www.pexels.com/photo/concrete-building-1567355/
